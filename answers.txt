@@ -1,0 +1,12 @@
+Explain why a number data type added to a string data type returns a string.
+-the number is auto converted into string due to when combined, the number paired with a string will always convert into a string type due to the operator +
+
+Name a scenario where using the == operator could cause a bug.
+-if used it has the tendency to change values to the same/similar type, in sense it automatically changes values when being compared
+
+Name the operator(s) that you find confusing and explain why.
+-(Ternary Operator) This can be confusing due to how in a string it's all one line making it hard to read and more likely to make mistakes for example, let result = (x>10) ? (y>5 ? "Greater" : "Equal") : "smaller";
+
+Explain a situation where you would use the Modulus operator and why.
+-Checking if a number is even or odd-determine if a number is divisible by another number
+-Cycling through a list or array-when using a list and need to move around it promptly can wrap around array with modulus
